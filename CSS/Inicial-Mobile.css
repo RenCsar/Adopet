@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;500;600&family=Poppins&display=swap');
 
 :root {
   --Branco: #ffffff;
@@ -10,6 +10,7 @@
   --Cinza-medio: #BCBCBC;
   --Cinza-claro: #F6F6F6;
   --fonte-principal: 'IBM Plex Sans', sans-serif;
+  --font-secundaria: 'Poppins', sans-serif;
 }
 
 body {
@@ -19,6 +20,12 @@ body {
 
 body:first-child{
   position: fixed;
+}
+
+body img + img{
+  position: absolute;
+  left: 290px;
+  top: 199px;
 }
 
 header {
@@ -55,5 +62,7 @@ main {
 
 .content p {
   width: 248px;
+  font-family: var(--font-secundaria);
+  font-size: 16px;
 }
 

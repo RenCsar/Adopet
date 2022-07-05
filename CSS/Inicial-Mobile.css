@@ -45,6 +45,14 @@ header {
   margin: 0 auto;
 }
 
+header img{
+  transition: .8s;
+}
+
+header img:hover {
+  transform: scale(1.1);
+}
+
 header a + a {
   margin-left: 59px;
 }
@@ -92,6 +100,7 @@ main {
   font-size: 16px;
   font-weight: 600;
   transition: 1s;
+  cursor: pointer;
 }
 
 .content button + button {

@@ -16,6 +16,8 @@
 body {
   background-color: var(--Azul);
   font-family: var(--fonte-principal);
+  width: 360px;
+  height: 917px;
 }
 
 body:first-child{
@@ -29,7 +31,7 @@ body img + img{
 }
 
 header {
-  position: fixed;
+  position: absolute;
   top: 48px;
   left: 48px;
   margin: 0 auto;
@@ -40,7 +42,7 @@ header a + a {
 }
 
 main {
-  position: fixed;
+  position: absolute;
   top: 168px; 
   color: var(--Branco);
   width: 100%;
@@ -66,3 +68,41 @@ main {
   font-size: 16px;
 }
 
+.content button {
+  width: 180px;
+  height: 40px;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+  background-color: var(--Coral);
+  border: 0;
+  border-radius: 6px;
+  margin-top: 16px;
+  color: var(--Branco);
+  font-family: var(--font-secundaria);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.content:last-child {
+  position: absolute;
+  top: 518px;
+  left: 34px;
+}
+
+footer {
+  position: absolute;
+  top: 813px;
+  bottom: 0;
+  width: 360px;
+  height: 104px;
+  background-color: var(--Verde);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  color: var(--Branco);
+  font-family: var(--font-secundaria);
+  font-size: 16px;
+  font-weight: 400;
+}

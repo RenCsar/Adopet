@@ -21,8 +21,12 @@ body {
   height: 917px;
 }
 
+.fundo-container {
+  position: relative;
+}
+
 .fundo-container img:first-child{
-  position: fixed;
+  position: relative;
   left: -0.5px;
 }
 

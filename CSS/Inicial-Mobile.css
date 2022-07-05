@@ -21,18 +21,18 @@ body {
   height: 917px;
 }
 
-body:first-child{
+.fundo-container img:first-child{
   position: fixed;
   left: -0.5px;
 }
 
-body img + img{
+.fundo-container img + img{
   position: absolute;
   left: 290px;
   top: 199px;
 }
 
-body img:nth-child(3n) {
+.fundo-container img:nth-child(3n) {
   position: absolute;
   top: 518px;
   left: 34px;

@@ -22,12 +22,19 @@ body {
 
 body:first-child{
   position: fixed;
+  left: -0.5px;
 }
 
 body img + img{
   position: absolute;
   left: 290px;
   top: 199px;
+}
+
+body img:nth-child(3n) {
+  position: absolute;
+  top: 518px;
+  left: 34px;
 }
 
 header {
@@ -58,14 +65,17 @@ main {
 
 .content h3 {
   font-size: 26px;
-  margin: 24px 0 16px 0;
+  margin-top: 24px;
+  margin-bottom: 16px;
   font-weight: 500;
+  line-height: 48px;
 }
 
 .content p {
   width: 248px;
   font-family: var(--font-secundaria);
   font-size: 16px;
+  line-height: 24px;
 }
 
 .content button {
@@ -75,17 +85,15 @@ main {
   background-color: var(--Coral);
   border: 0;
   border-radius: 6px;
-  margin-top: 16px;
+  margin-top: 24px;
   color: var(--Branco);
   font-family: var(--font-secundaria);
   font-size: 16px;
   font-weight: 600;
 }
 
-.content:last-child {
-  position: absolute;
-  top: 518px;
-  left: 34px;
+.content button + button {
+  margin-top: 16px;
 }
 
 footer {

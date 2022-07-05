@@ -5,6 +5,7 @@
   --Azul: #3772FF;
   --Verde: #36D6AD;
   --Coral: #FC7071;
+  --Coral-hover: #FF9D9E;
   --Creme: #FCF0E3;
   --Cinza-escuro: #737380;
   --Cinza-medio: #BCBCBC;
@@ -90,10 +91,16 @@ main {
   font-family: var(--font-secundaria);
   font-size: 16px;
   font-weight: 600;
+  transition: 1s;
 }
 
 .content button + button {
   margin-top: 16px;
+}
+
+.content button:hover {
+  background-color: var(--Coral-hover);
+  transform: scale(1.01);
 }
 
 footer {

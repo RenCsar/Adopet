@@ -42,7 +42,7 @@ header {
   position: absolute;
   top: 48px;
   left: 48px;
-  margin: 0 auto;
+  width: 360px;
 }
 
 header img{
@@ -61,7 +61,7 @@ main {
   position: absolute;
   top: 168px; 
   color: var(--Branco);
-  width: 360px;
+  width: 100%;
 }
 
 .content {

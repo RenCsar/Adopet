@@ -47,6 +47,12 @@ header {
   top: 48px;
   left: 48px;
   width: 360px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-header{
+  display: none;
 }
 
 header img{
@@ -137,6 +143,83 @@ footer p {
 
 /* Responsividade*/
 
-@media (max-width) {
+@media (min-width: 361px) {
+  body, main {
+    width: 768px;
+    height: 1200px;
+  }
+
+  .fundo-container img:first-child{
+    position: relative;
+    top: -1px;
+    left: -1.17px;
+    width: 561px;
+    height: 470px;
+  }
   
+  .fundo-container img + img{
+    position: absolute;
+    left: 634px;
+    top: 268px;
+    width: 134px;
+    height: 664px;
+  }
+  
+  .fundo-container img:nth-child(3n) {
+    position: absolute;
+    top: 600px;
+    left: 195px;
+    width: 338px;
+  }
+
+  main {
+    top: 273px; 
+    width: 768px;
+  }
+
+  .logo-header{
+    display: inline;
+  }
+
+  .content img {
+    width: 252px;
+    height: 62px;
+  }
+
+  .content h3 {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    line-height: 48px;
+  }
+
+  .content p {
+    width: 344px;
+    height: 78px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  
+  .content button {
+    width: 344px;
+    height: 48px;
+    margin-top: 38px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .content button + button {
+    margin-top: 16px;
+  }
+
+
+
+
+  footer {
+    top: 1096px;
+    bottom: 0;
+    width: 768px;
+    height: 104px;
+  }
 }

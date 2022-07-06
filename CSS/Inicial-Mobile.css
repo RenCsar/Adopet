@@ -213,13 +213,61 @@ footer p {
     margin-top: 16px;
   }
 
-
-
-
   footer {
     top: 1096px;
     bottom: 0;
     width: 768px;
     height: 104px;
+  }
+}
+
+/*Desktop*/
+@media (min-width:789px) and (max-width: 1440px){
+  body, main {
+    width: 1440px;
+    height: 1024px;
+  }
+  
+  .fundo-container img + img{
+    position: absolute;
+    left: 1306px;
+    top: 180px;
+  }
+  
+  .fundo-container img:nth-child(3n) {
+    position: absolute;
+    left: 517px;
+    width: 346px;
+    top: 420px;
+  }
+
+  main {
+    top: 130px; 
+    width: 1440px;
+  }
+
+  .content img {
+    width: 260px;
+    height: 64px;
+  }
+
+  .content p {
+    width: 488px;
+    height: 52px;
+  }
+  
+  .content button {
+    width: 362px;
+    margin-top: 32px;
+  }
+  
+  .content button + button {
+    margin-top: 16px;
+  }
+
+  footer {
+    top: 944px;
+    width: 1440px;
+    height: 80px;
   }
 }

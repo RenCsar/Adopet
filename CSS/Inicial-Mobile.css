@@ -40,12 +40,12 @@ body {
   position: absolute;
   top: 518px;
   left: 34px;
+  height: 312px;
 }
 
 header {
   position: absolute;
   top: 48px;
-  left: 48px;
   width: 360px;
   display: flex;
   align-items: center;
@@ -167,9 +167,14 @@ footer p {
   
   .fundo-container img:nth-child(3n) {
     position: absolute;
-    top: 600px;
+    top: 715px;
     left: 195px;
     width: 338px;
+    height: 422px;
+  }
+
+  header {  
+  left: 48px;
   }
 
   main {
@@ -238,7 +243,8 @@ footer p {
     position: absolute;
     left: 517px;
     width: 346px;
-    top: 420px;
+    height: 432px;
+    top: 535px;
   }
 
   main {

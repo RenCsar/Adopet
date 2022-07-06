@@ -144,7 +144,7 @@ footer p {
 /* Responsividade*/
 
 @media (min-width: 361px) {
-  body, main {
+  body, {
     width: 768px;
     height: 1200px;
   }
@@ -223,7 +223,7 @@ footer p {
 
 /*Desktop*/
 @media (min-width:789px) and (max-width: 1440px){
-  body, main {
+  body {
     width: 1440px;
     height: 1024px;
   }

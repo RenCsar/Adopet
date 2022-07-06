@@ -19,6 +19,7 @@ body {
   font-family: var(--fonte-principal);
   width: 360px;
   height: 917px;
+  box-sizing: border-box;
 }
 
 .fundo-container {
@@ -143,7 +144,7 @@ footer p {
 
 /* Responsividade*/
 
-@media (min-width: 361px) {
+@media (min-width: 361px) and (max-width: 768px) {
   .fundo-container img:first-child{
     position: relative;
     top: -1px;
@@ -222,7 +223,7 @@ footer p {
 }
 
 /*Desktop*/
-@media (min-width:789px) and (max-width: 1440px){
+@media (min-width:769px) and (max-width: 1440px){
   body {
     width: 1440px;
     height: 1024px;

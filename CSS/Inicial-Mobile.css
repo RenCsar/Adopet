@@ -23,7 +23,8 @@ body {
 }
 
 .fundo-container {
-  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .fundo-container img:first-child{
@@ -144,7 +145,7 @@ footer p {
 
 /* Responsividade*/
 
-@media (min-width: 361px) and (max-width: 768px) {
+@media (min-width: 361px) {
   .fundo-container img:first-child{
     position: relative;
     top: -1px;

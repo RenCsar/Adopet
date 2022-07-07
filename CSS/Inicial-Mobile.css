@@ -22,6 +22,7 @@ body {
      url('/Assent/Ilustração\ 1.svg') ;
   background-repeat: no-repeat;
   background-position: left top, right top 12.4em, bottom 5.39em center;
+  background-size: 22em 18.4em, 5.25em 25.9em, 15.4em 19.6em;
   font-family: var(--fonte-principal);
   min-width: 100vw;
   min-height: 100vh;

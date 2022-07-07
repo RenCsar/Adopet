@@ -116,7 +116,7 @@ footer {
   position: absolute;
   top: 813px;
   bottom: 0;
-  width: 360px;
+  width: 100vw;
   height: 104px;
   background-color: var(--Verde);
   display: flex;
@@ -131,7 +131,7 @@ footer p {
   font-weight: 400;
 }
 
-/* Responsividade*/
+/* Responsividade
 
 @media (min-width: 361px) {
 
@@ -187,9 +187,9 @@ footer p {
     width: 768px;
     height: 104px;
   }
-}
+} */
 
-/*Desktop*/
+/*Desktop
 @media (min-width:769px) {
   body {
     width: 1440px;
@@ -225,4 +225,4 @@ footer p {
     width: 1440px;
     height: 80px;
   }
-}
+} */

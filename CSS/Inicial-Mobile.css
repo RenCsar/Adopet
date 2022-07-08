@@ -147,13 +147,18 @@ footer p {
     background-size: 35em 29.4em, 8.4em 41.5em, 21.1em 26.4em;
   }
 
-  header {  
-  left: 48px;
+  header {
+    display: flex;
+    align-items: center;
+    margin-top: 4em;
+    padding-left: 3em;
+    width: 19em;
+    height: 2em;
   }
 
   main {
-    top: 273px; 
-    width: 768px;
+    margin-top: 11em; 
+    width: 100vw;
   }
 
   .logo-header{
@@ -161,8 +166,8 @@ footer p {
   }
 
   .content img {
-    width: 252px;
-    height: 62px;
+    width: 15.75em;
+    height: 3.875em;
   }
 
   .content h3 {
@@ -180,7 +185,7 @@ footer p {
     line-height: 26px;
   }
   
-  .content button {
+  .content a {
     width: 344px;
     height: 48px;
     margin-top: 38px;
@@ -188,14 +193,14 @@ footer p {
     font-weight: 600;
   }
   
-  .content button + button {
+  .content a + a {
     margin-top: 16px;
   }
 
   footer {
     top: 1096px;
     bottom: 0;
-    width: 768px;
+    width: 100vw;
     height: 104px;
   }
 } 

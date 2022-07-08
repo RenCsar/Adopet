@@ -138,10 +138,14 @@ footer p {
   font-weight: 400;
 }
 
-/* Responsividade
+/* Responsividade */
 
-@media (min-width: 361px) {
+@media (min-width: 768px) {
 
+  body {
+    background-position: left -0.0625em top -0.06em , right top 16.75em, top 44.7em center;
+    background-size: 35em 29.4em, 8.4em 41.5em, 21.1em 26.4em;
+  }
 
   header {  
   left: 48px;
@@ -194,7 +198,7 @@ footer p {
     width: 768px;
     height: 104px;
   }
-} */
+} 
 
 /*Desktop
 @media (min-width:769px) {

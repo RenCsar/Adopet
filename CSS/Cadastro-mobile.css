@@ -133,9 +133,9 @@ main {
   align-items: center;
 }
 
-.content .btn-cadastrar {
+.content .btn-cadastrar:hover {
   background-color: var(--Coral-hover);
-  transform: scale(1.01);
+  transform: scale(1.1);
 }
 
 footer {

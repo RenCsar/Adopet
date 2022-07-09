@@ -83,7 +83,12 @@ main {
   line-height: 21px;
 }
 
-.content a {
+.content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content .btn-cadastrar {
   width: 180px;
   height: 40px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -102,7 +107,7 @@ main {
   align-items: center;
 }
 
-.content a:hover {
+.content .btn-cadastrar {
   background-color: var(--Coral-hover);
   transform: scale(1.01);
 }

@@ -227,15 +227,7 @@ footer p {
 
 /*Desktop*/
 @media (min-width:1440px) {
-  body {
-    background-image:
-    url('/Assent/Patas.svg'), 
-    url('/Assent/Forma\ 1.svg'),
-    url('/Assent/Forma\ 2.svg');
-    background-position: top -36px right, left -1.17px top -1px, right top 16.75em;
-    background-size: 292px 374.15px, 560.97px 29.3em, 8.4em 41.5em;
-  }
-
+ 
   header {
     display: flex;
     align-items: center;
@@ -255,32 +247,24 @@ footer p {
   }
 
   .content img {
-    width: 15.75em;
-    height: 3.875em;
+    width: 16.23em;
+    height: 4em;
   }
 
   .content p {
-    width: 525px;
-    height: 78px;
-    font-size: 18px;
-    line-height: 26px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
   }
 
   .content form label {
-    margin: 24px 0 8px 0;
-    font-size: 18px;
+    margin: 24px 0 15px 0;
   }
   
   .content form input {
-    width: 344px;
+    width: 552px;
   }
   
   .content .btn-cadastrar {
-    width: 164px;
-    height: 40px;
-    margin-top: 40px;
-    font-size: 18px;
+    width: 174px;
   }
 
   footer {

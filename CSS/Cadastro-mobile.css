@@ -28,11 +28,12 @@ html {
 body {
   background-color: var(--Branco);
   background-image:
-     url('/Assent/Forma\ 1.svg'),
-     url('/Assent/Forma\ 2\ -\ esquerda.svg');
+    url('/Assent/Patas.svg'), 
+    url('/Assent/Forma\ 1.svg'),
+    url('/Assent/Forma\ 2\ -\ esquerda.svg');
   background-repeat: no-repeat;
-  background-position: left top, left 1px top 23em;
-  background-size: 22em 18.4em, 5.2em 25.9em;
+  background-position: top -17px right, left top, left 1px top 23em;
+  background-size: 190px 244px, 22em 18.4em, 5.2em 25.9em;
   font-family: var(--fonte-principal);
   min-width: 100vw;
   min-height: 100vh;

@@ -88,6 +88,7 @@ main {
 .content form {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .content form label {
@@ -136,6 +137,11 @@ main {
 .content .btn-cadastrar:hover {
   background-color: var(--Coral-hover);
   transform: scale(1.1);
+}
+
+.content .btn-cadastrar:active {
+  background-color: var(--Coral);
+  transform: scale(1);
 }
 
 footer {
@@ -232,7 +238,7 @@ footer p {
     display: flex;
     align-items: center;
     margin-top: 4em;
-    padding-left: 3em;
+    margin-left: 80px;
     width: 19em;
     height: 2em;
   }
@@ -261,6 +267,10 @@ footer p {
   
   .content form input {
     width: 552px;
+  }
+
+  .content form .input-senha {
+    width: 22.625em;
   }
   
   .content .btn-cadastrar {

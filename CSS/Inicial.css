@@ -145,6 +145,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   flex-shrink: 0;
 }
 
@@ -211,8 +212,20 @@ footer p {
     margin-top: 16px;
   }
 
+  main .imagem-container img{
+    width: 338px;
+    height: 422px;
+  } 
+
   footer {
     height: 104px;
+  }
+}
+
+/*Small smartphones*/
+@media (max-width: 310px){
+  footer{
+    padding: 20px;
   }
 }
 
@@ -244,6 +257,11 @@ footer p {
   .content a + a {
     margin-top: 16px;
   }
+
+  main .imagem-container img{
+    width: 346px;
+    height: 432px;
+  } 
 
   footer {
     height: 5em;

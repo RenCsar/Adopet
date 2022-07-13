@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;500;600&family=Poppins&display=swap');
+
+:root {
+  --Branco: #ffffff;
+  --Azul: #3772FF;
+  --Verde: #36D6AD;
+  --Coral: #FC7071;
+  --Coral-hover: #FF9D9E;
+  --Creme: #FCF0E3;
+  --Cinza-escuro: #737380;
+  --Cinza-medio: #BCBCBC;
+  --Cinza-claro: #F6F6F6;
+  --fonte-principal: 'IBM Plex Sans', sans-serif;
+  --font-secundaria: 'Poppins', sans-serif;
+}
+
+* {  
+  box-sizing: border-box;
+}
+
+html, body {
+  display: flex;
+  height: 100%;
+  width: 100vw;
+}
+
+body {
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--Azul);
+  background-image:
+     url('/Assent/Forma\ 1.svg'),
+     url('/Assent/Forma\ 2.svg');
+  background-repeat: no-repeat;
+  background-position: left top, right top 12.4em;
+  background-size: 22em 18.4em, 5.25em 25.9em;
+  font-family: var(--fonte-principal); 
+}
+
+header {
+  width: 100vw;
+  height: 1.9em;
+  display: flex;
+  align-items: baseline;
+  margin-top: 3em;
+}
+
+.logo-header{
+  display: none;
+}
+
+header img{
+  transition: .8s;
+}
+
+header img:hover {
+  transform: scale(1.1);
+}
+
+header a:first-child {
+  margin-left: 49px;
+}
+
+header a:last-child {
+  margin-left: 59px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 auto;
+  color: var(--Branco);
+  margin-top: 98.99px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 26px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.content p {
+  width: 248px;
+  font-family: var(--font-secundaria);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content a {
+  width: 180px;
+  height: 40px;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+  background-color: var(--Coral);
+  border: 0;
+  border-radius: 6px;
+  margin-top: 24px;
+  color: var(--Branco);
+  font-family: var(--font-secundaria);
+  font-size: 16px;
+  font-weight: 600;
+  transition: 1s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content a + a {
+  margin-top: 16px;
+}
+
+.content a:hover {
+  background-color: var(--Coral-hover);
+  transform: scale(1.01);
+}
+
+main .imagem-container {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+main .imagem-container img{
+  width: 243.34px;
+  height: 312.77px;
+}
+
+footer {
+  width: 100vw;
+  height: 104px;
+  background-color: var(--Verde);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+footer p {
+  color: var(--Branco);
+  font-family: var(--font-secundaria);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Responsividade */
+
+@media (min-width: 768px) {
+
+  body {
+    background-position: left -0.0625em top -0.06em , right top 16.75em, top 44.7em center;
+    background-size: 35em 29.4em, 8.4em 41.5em, 21.1em 26.4em;
+  }
+
+  header {
+    margin-top: 4em;
+    height: 2em;
+    align-items: center;
+  }
+
+  .logo-header{
+    display: initial;
+    margin:0 65px 0 1em;
+  }
+
+  main {
+    margin-top: 180px;
+  }
+  
+  .content img {
+    width: 15.75em;
+    height: 3.875em;
+  }
+
+  .content h1 {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    line-height: 48px;
+  }
+
+  .content p {
+    width: 344px;
+    height: 78px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  
+  .content a {
+    width: 344px;
+    height: 48px;
+    margin-top: 38px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .content a + a {
+    margin-top: 16px;
+  }
+
+  footer {
+    height: 104px;
+  }
+}
+
+/*Desktop*/
+@media (min-width:1440px) {
+  body {
+    background-position: left -0.0625em top -0.06em , right top 11.25em, top 33.4em center;
+    background-size: 35em 29.4em, 9em 41em, 21.62em 26.98em;
+  }
+
+  main {
+    margin-top: 2.25875em;
+  }
+
+  .content img {
+    width: 16.2em;
+    height: 4em;
+  }
+
+  .content p {
+    width: 488px;
+    height: 52px;
+  }
+  
+  .content a {
+    width: 362px;
+  }
+  
+  .content a + a {
+    margin-top: 16px;
+  }
+
+  footer {
+    height: 5em;
+  }
+} 

@@ -158,6 +158,14 @@ footer p {
 
 /* Responsividade */
 
+/*Small smartphones*/
+@media (max-width: 310px){
+  footer{
+    padding: 20px;
+  }
+}
+
+/*Tablet*/
 @media (min-width: 768px) {
 
   body {
@@ -219,13 +227,6 @@ footer p {
 
   footer {
     height: 104px;
-  }
-}
-
-/*Small smartphones*/
-@media (max-width: 310px){
-  footer{
-    padding: 20px;
   }
 }
 

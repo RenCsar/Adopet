@@ -179,6 +179,18 @@ footer p {
 
 /* Responsividade */
 
+/*Small smartphones*/
+@media (max-width: 310px){
+  .content form input {
+    width: 250px;
+  }
+
+  footer{
+    padding: 20px;
+  }
+}
+
+/*Tablet*/
 @media (min-width: 768px) {
 
   body {
@@ -239,9 +251,6 @@ footer p {
   }
 
   footer {
-    top: 1096px;
-    bottom: 0;
-    width: 100vw;
     height: 104px;
   }
 } 
@@ -259,8 +268,7 @@ footer p {
   }
 
   main {
-    margin-top: 2.125em; 
-    width: 100vw;
+    margin-top: 2.25875em;
   }
 
   .logo-header{

@@ -19,13 +19,15 @@
   box-sizing: border-box;
 }
 
-html {
+html, body {
   display: flex;
-  flex-grow: 1;
+  height: 100%;
   width: 100vw;
 }
 
 body {
+  align-items: center;
+  flex-direction: column;
   background-color: var(--Branco);
   background-image:
     url('/Assent/Patas.svg'), 
@@ -35,8 +37,6 @@ body {
   background-position: top -17px right, left top, left 1px top 23em;
   background-size: 190px 244px, 22em 18.4em, 5.2em 25.9em;
   font-family: var(--fonte-principal);
-  min-width: 100vw;
-  min-height: 100vh;
 }
 
 header {
@@ -59,13 +59,22 @@ header img:hover {
   transform: scale(1.1);
 }
 
-header a + a {
+header a:first-child {
+  margin-left: 49px;
+}
+
+header a:last-child {
   margin-left: 59px;
 }
 
 main {
-  margin: 6.2em auto;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 auto;
+  color: var(--Branco);
+  margin-top: 98.99px;
+  margin-bottom: 200px;
 }
 
 .content {
@@ -151,15 +160,14 @@ main {
 }
 
 footer {
-  position: absolute;
-  top: 813px;
-  bottom: 0;
   width: 100vw;
   height: 104px;
   background-color: var(--Verde);
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  flex-shrink: 0;
 }
 
 footer p {
@@ -183,17 +191,18 @@ footer p {
   }
 
   header {
-    display: flex;
-    align-items: center;
     margin-top: 4em;
-    padding-left: 3em;
-    width: 19em;
     height: 2em;
+    align-items: center;
+  }
+
+  .logo-header{
+    display: initial;
+    margin:0 65px 0 1em;
   }
 
   main {
-    margin-top: 11em; 
-    width: 100vw;
+    margin-top: 180px;
   }
 
   .logo-header{

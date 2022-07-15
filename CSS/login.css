@@ -74,7 +74,7 @@ main {
   flex: 1 0 auto;
   color: var(--Branco);
   margin-top: 98.99px;
-  margin-bottom: 200px;
+  margin-bottom: 250px;
 }
 
 .content {
@@ -181,6 +181,21 @@ footer p {
 
 /*Small smartphones*/
 @media (max-width: 310px){
+
+  body {
+    background-position: top -20px right, left top -15px, left 1px top 23em;
+    background-size: 110px 200px, 16em 15.4em, 4.2em 25.9em;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .content p {
+    width: 100%;
+    text-align: center;
+  }
+
   .content form input {
     width: 250px;
   }
@@ -259,11 +274,8 @@ footer p {
 @media (min-width:1440px) {
  
   header {
-    display: flex;
-    align-items: center;
     margin-top: 4em;
-    margin-left: 80px;
-    width: 19em;
+    width: 100vw;
     height: 2em;
   }
 
@@ -301,9 +313,6 @@ footer p {
   }
 
   footer {
-    top: 59em;
-    bottom: 0;
-    width: 100vw;
     height: 5em;
   }
 } 

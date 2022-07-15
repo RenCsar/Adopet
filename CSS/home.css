@@ -267,26 +267,25 @@ footer p {
     padding: 20px;
   }
 }
-
+/*Voltar a programar daqui*/
 /*Tablet*/
 @media (min-width: 768px) {
 
   body {
-    background-image:
-    url('/Assent/Patas.svg'), 
-    url('/Assent/Forma\ 1.svg'),
-    url('/Assent/Forma\ 2.svg');
-    background-position: top -36px right, left -1.17px top -1px, right top 16.75em;
-    background-size: 292px 374.15px, 560.97px 29.3em, 8.4em 41.5em;
+    background-image: url('/Assent/Forma\ 1.svg');
+    background-position: left -1.17px top -1px;
+    background-size: 560.97px 29.3em;
   }
 
   header {
     display: flex;
     align-items: center;
-    margin-top: 4em;
-    padding-left: 3em;
-    width: 19em;
     height: 2em;
+  }
+
+  .logo-header{
+    display: initial;
+    margin:0 65px 0 1em;
   }
 
   main {
@@ -294,43 +293,19 @@ footer p {
     width: 100vw;
   }
 
-  .logo-header{
-    display: inline;
-  }
-
-  .content img {
-    width: 15.75em;
-    height: 3.875em;
-  }
-
-  .content p {
-    width: 525px;
-    height: 78px;
-    font-size: 18px;
-    line-height: 26px;
-    margin-bottom: 16px;
-  }
-
-  .content form label {
-    margin: 24px 0 8px 0;
-    font-size: 18px;
+  .content .card-container {
+   margin-top: 16px;
   }
   
-  .content form input {
-    width: 344px;
+  .content .card {
+    margin-top: 16px;
   }
-  
-  .content .btn-cadastrar {
-    width: 164px;
-    height: 40px;
-    margin-top: 40px;
-    font-size: 18px;
+
+  .content .card + .card {
+    margin-left: 16px;
   }
 
   footer {
-    top: 1096px;
-    bottom: 0;
-    width: 100vw;
     height: 104px;
   }
 } 
@@ -339,11 +314,8 @@ footer p {
 @media (min-width:1440px) {
  
   header {
-    display: flex;
-    align-items: center;
     margin-top: 4em;
     margin-left: 80px;
-    width: 19em;
     height: 2em;
   }
 
@@ -354,6 +326,10 @@ footer p {
 
   .logo-header{
     display: inline;
+  }
+
+  .logo-container {
+    
   }
 
   .content img {
@@ -382,8 +358,6 @@ footer p {
   }
 
   footer {
-    top: 59em;
-    bottom: 0;
     width: 100vw;
     height: 5em;
   }
